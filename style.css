@@ -1,0 +1,283 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',times;
+}
+body
+{
+background: lightblue;
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background: #fff;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+
+.container .left_side
+{
+position: relative;
+background: 	 #fa3e0f;
+padding: 40px;
+}
+.myinfo
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.myinfo .imgBX
+{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.myinfo .imgBX img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.myinfo h2
+{
+color: #fff;
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+font-weight: 600;
+text-align: center;
+line-height: 1.4em;
+}
+
+.myinfo h2 span
+{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.contacts
+{
+padding-top: 40px;
+}
+.title
+{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.contacts ul
+{
+  position: relative;
+}
+.contacts ul li
+{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contacts ul li .icon
+{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #fff;
+}
+.contacts ul li span
+{
+  color: #fff;
+  font-weight:300;
+}
+
+
+.contacts.education.title
+{
+  margin-top: 45px;
+}
+.contacts.education li
+{
+  margin-bottom: 45px;
+}
+
+.contacts.education h5
+{
+  color: #fff;
+  font-weight: 500;
+}
+.contacts.education h4:nth-child(2)
+{
+  color: #fff;
+  font-weight: 500;
+}
+.contacts.education h4
+{
+  color: #fff;
+  font-weight: 300;
+}
+
+.contacts.lang .percent
+{
+position: relative;
+width: 100%;
+height: 6px;
+background: #8c330a;
+display: block;
+}
+
+.contacts.lang .percent div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.container .right_side
+{
+position: relative;
+background: #fff;
+padding: 40px;
+}
+.about
+{
+  margin-bottom: 50px;
+}
+.title2
+{
+  color: #262625;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+p
+{
+color: #333;
+}
+
+.about ul li
+{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.about ul li span
+{
+  color: #141313;
+  font-weight:300;
+}
+.about h4
+{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.about h2
+{
+  margin-bottom: 25px;
+}
+
+.skills h4
+{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #858382;
+  font-weight: 500;
+}
+.skills h2
+{
+  margin-bottom: 15px;
+}
+.skills .box
+{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.skills .box .percent
+{
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #f0f0f0;
+}
+.skills .box .percent div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #ff5038;
+}
+
+
+
+element.style {
+}
+.footer-container {
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1000px;
+    background-color: brown;
+    justify-content: space-between;
+    background-color: #fff;
+
+}
+.footer-logo-github {
+    padding: 10px;
+    width: 75px;
+    height: auto;
+}
+.footer-logo-rs {
+    padding: 10px;
+    width: 100px;
+    height: auto;
+}
+p a {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+time#footer-date {
+    padding-left: 25%;
+    font-size: small;
+}
+.skills
+{
+  margin-bottom: 150px;
+}
